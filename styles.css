@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.material-input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+    flex-grow: 1; /* Membuat input teks memenuhi sisa ruang yang tersedia */
+}
+
+#crypto-list {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px; /* Menambahkan sedikit spasi */
+    display: flex;
+    align-items: center;
+}
+
+.crypto-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.price-up {
+    color: green;
+    margin-left: auto; /* Menempatkan persentase perubahan harga di samping kanan */
+}
+
+.price-down {
+    color: red;
+    margin-left: auto; /* Menempatkan persentase perubahan harga di samping kanan */
+}
